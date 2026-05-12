@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import { Cookie, X } from "lucide-react"
+import { X } from "lucide-react"
 
 export function CookieBanner() {
   const [visible, setVisible] = useState(false)
@@ -39,9 +39,6 @@ export function CookieBanner() {
 
           {/* Icon + text */}
           <div className="flex items-start gap-3 flex-1 min-w-0">
-            <div className="w-9 h-9 bg-primary/10 border border-primary/20 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
-              <Cookie className="w-4.5 h-4.5 text-primary" aria-hidden="true" />
-            </div>
             <div>
               <p className="text-sm font-heading font-700 text-foreground mb-0.5">We use cookies</p>
               <p className="text-xs text-muted-foreground leading-relaxed">
