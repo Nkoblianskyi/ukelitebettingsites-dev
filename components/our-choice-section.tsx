@@ -38,8 +38,8 @@ export function OurChoiceSection() {
 
             {/* Left: logo + rating */}
             <div className="flex flex-row md:flex-col items-center justify-between md:justify-center md:w-52 bg-surface border-b md:border-b-0 md:border-r border-border px-6 py-5 gap-4">
-              <div className="flex items-center justify-center bg-black w-36 md:w-40 h-14 md:h-16 px-3 py-2 flex-shrink-0">
-                <img src={top.logo || "/placeholder.svg"} alt={`${top.name} logo`} className="max-h-10 w-full object-contain" />
+              <div className="flex items-center justify-center  w-36 md:w-40 h-18 md:h-18 px-3 py-2 flex-shrink-0">
+                <img src={top.logo || "/placeholder.svg"} alt={`${top.name} logo`} className="max-h-18 w-full object-contain" />
               </div>
               <div className="text-center flex-shrink-0">
                 <div className="font-heading font-700 text-5xl text-primary leading-none tabular-nums">{top.rating.toFixed(1)}</div>
