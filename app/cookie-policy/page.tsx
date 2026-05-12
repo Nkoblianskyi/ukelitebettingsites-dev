@@ -17,7 +17,7 @@ export default function CookiePolicyPage() {
           <h1 className="font-heading font-800 text-3xl md:text-4xl text-foreground tracking-tight">
             Cookie Policy
           </h1>
-          <p className="text-muted-foreground text-xs mt-2">ukelitebettingsites.com &mdash; Last updated: January {new Date().getFullYear()}</p>
+          <p className="text-muted-foreground text-xs mt-2">ukelitebettingsites.com &mdash; Last updated: {new Date().getFullYear()}</p>
         </div>
       </div>
 
