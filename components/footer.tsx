@@ -17,9 +17,9 @@ const regulators = [
 
 const logos = [
   { src: "/gamble.webp",  alt: "BeGambleAware",    url: "https://www.begambleaware.org" },
-  { src: "/gamstop.jpg",  alt: "GAMSTOP",           url: "https://www.gamstop.co.uk" },
+  { src: "/gamstop.svg",  alt: "GAMSTOP",           url: "https://www.gamstop.co.uk" },
   { src: "/gamecare.svg", alt: "GamCare",           url: "https://www.gamcare.org.uk" },
-  { src: "/ukgc.jpg",     alt: "UKGC",              url: "https://www.gamblingcommission.gov.uk" },
+  { src: "/commission.png",     alt: "UKGC",              url: "https://www.gamblingcommission.gov.uk" },
 ]
 
 export function Footer() {
