@@ -62,11 +62,11 @@ export function TopSitesModal() {
           </div>
 
           {/* Logo on dark */}
-          <div className="h-14 w-full bg-white/10 backdrop-blur-sm rounded-xl flex items-center justify-center border border-white/15">
+          <div className="h-18 w-full bg-white/90 backdrop-blur-sm rounded-xl flex items-center justify-center border border-white/15">
             <img
               src={top.logo || "/placeholder.svg"}
               alt={`${top.name} logo`}
-              className="max-h-8 max-w-[140px] object-contain brightness-0 invert"
+              className="max-h-18 max-w-[140px] object-contain brightness-0 invert"
             />
           </div>
 
